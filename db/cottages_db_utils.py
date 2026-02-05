@@ -1,5 +1,5 @@
 import mysql.connector
-from cottages_config import USER, PASSWORD, HOST, DATABASE
+from config.cottages_config import USER, PASSWORD, HOST, DATABASE
 
 #01)  Function to connect to the database
 def connect_to_db():
@@ -121,4 +121,5 @@ def book_cottage_in_db(cottage_name: str, start_date: str, end_date: str):
 
 
 if __name__ == '__main__':
+
     get_date_range_booking_availability('2026-06-18', '2026-06-22')
