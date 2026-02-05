@@ -1,4 +1,8 @@
-# CFG Assignment 04
+# Flask & Mysql Booking Api
+
+This project is part of the Data Science & Machine Learning/AI course by Code First Girls.
+Assignment 03 – Cottage Lodge Booking API
+
 ## CREATIVE SCENARIO: Cottage Lodge Booking API
 
 The Cottage Lodge Booking API demonstrates a simple example of how booking systems work, integrating Python, Flask, and MySQL to manage reservations dynamically.
@@ -172,4 +176,5 @@ Thank you!
 
 - #### def if __ name __ == '__ main __': 
 Ensures the def run() function executes when the script starts.
+
 
