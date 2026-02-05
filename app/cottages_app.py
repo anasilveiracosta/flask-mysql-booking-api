@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from cottages_db_utils import get_all_booking_availability, get_date_range_booking_availability, book_cottage_in_db
+from db.cottages_db_utils import get_all_booking_availability, get_date_range_booking_availability, book_cottage_in_db
 
 
 app = Flask(__name__)
@@ -77,4 +77,5 @@ def book_cottage_route():
 #################################################################################################################
 
 if __name__ == '__main__':
+
     app.run(debug=True)
